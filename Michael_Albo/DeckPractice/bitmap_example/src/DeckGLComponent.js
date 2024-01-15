@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import DeckGL from '@deck.gl/react';
 import {BitmapLayer} from '@deck.gl/layers';
+//CODE MODIFIED FROM DECK.GL DOCUMENTATION: https://deck.gl/docs/api-reference/layers/bitmap-layer
 
 const DeckGLComponent = () => {
     const [viewState, setViewState] = useState({
